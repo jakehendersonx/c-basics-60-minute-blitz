@@ -2,6 +2,6 @@
 
 int main(void)
 {
-    printf("to C or not to C, that is the question.\n");
+    printf("hello");
     return 0;
 }

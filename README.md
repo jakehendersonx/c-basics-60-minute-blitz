@@ -6,7 +6,7 @@ clang --version
 
 clang compile 
 ```
-clang -o output_program program.c
+clang -o output_program.exe program.c
 ```
 run compiled program
 ```

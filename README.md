@@ -1,4 +1,7 @@
 
+![alt text](kawaii_c_basics.PNG)
+
+
 # c basics blitz
 This repo is for practicing C concepts to suppliment study of 
 OS programming and GPU programming.

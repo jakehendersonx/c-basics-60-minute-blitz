@@ -1,5 +1,5 @@
 
-# C Practice
+# c basics blitz
 This repo is for practicing C concepts to suppliment study of 
 OS programming and GPU programming.
 

@@ -1,4 +1,11 @@
 
+# C Practice
+This repo is for practicing C concepts to suppliment study of 
+OS programming and GPU programming.
+
+
+### basic concepts to study
+
 check clang version
 ```
 clang --version

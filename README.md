@@ -1,7 +1,6 @@
-
-![alt text](kawaii_c_basics.PNG)
-
 # C basics 60 minute blitz 
+![alt text](kawaii_c_basics.PNG)
+Repo designed to quickly get one up to speed on c fundamentals.
 
 It's been about 7 years since I have really used the C language, so I made this as a resource so that I can quickly refresh my knowledge in the future.
 

@@ -1,5 +1,6 @@
 # C basics 60 minute blitz 
 Repo designed to quickly get one up to speed on c fundamentals.
+
 ![alt text](kawaii_c_basics.PNG)
 
 ## Topics covered include:

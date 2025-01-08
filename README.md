@@ -13,7 +13,7 @@ Repo designed to quickly get one up to speed on c fundamentals.
 - File I/O
 - command line args to programs
 - simple testing with no added dependencies
-- command line args to programs
+- makefiles
 
 ## What is implemented in this project
 1. A Generic Linked List

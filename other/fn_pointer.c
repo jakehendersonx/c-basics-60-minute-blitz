@@ -9,9 +9,6 @@
 //
 #include <stdio.h>  // contains printf
 #include <stdlib.h> // contains qsort
-
-int double_value(int x) { return x * 2; }
-int square_value(int x) { return x * x; }
 // optional function peram to operate on the array
 // before printing its contents
 void print_nums(int arr[], int size, void (*operation)(int[], int)) {
@@ -24,6 +21,16 @@ void print_nums(int arr[], int size, void (*operation)(int[], int)) {
   printf("\n");
 }
 
+// double every value in an array
+void double_value(int arr[], int size) {
+  int *start = arr;
+  int *end = arr + size;
+  while (start < end) {
+    // dereference and double each value
+    // the value start points to is mult by two
+    *start++ *= 2; // facilitate increment on same line
+  }
+}
 // an int sort comparator
 // cast a to an integer pointer then derefrence
 // same for b
@@ -50,7 +57,7 @@ void reverse(int arr[], int size) {
     // the value left points to is now the value right points to
     *left++ = *right;
     // tha value right points to is now the value of temp
-    *right++ = temp;
+    *right-- = temp;
   }
 }
 
@@ -59,6 +66,7 @@ int main(void) {
   int size = sizeof(arr) / sizeof(arr[0]);
   // passing function as params
   print_nums(arr, size, NULL);             // no operation
+  print_nums(arr, size, double_value);     // double vals
   print_nums(arr, size, sort_wrapper_int); // sort
-  print_nums(arr, size, reverse);
+  print_nums(arr, size, reverse);          // reverse
 }

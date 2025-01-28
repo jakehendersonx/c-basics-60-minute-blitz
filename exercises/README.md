@@ -9,4 +9,4 @@ gcc -o hello.o hello.c
 ./hello.o
 ```
 
-swap out `hello` with the name of the file you want to run
+swap out `hello` with the name of the you want to run
